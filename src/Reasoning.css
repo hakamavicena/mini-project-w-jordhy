@@ -1,28 +1,36 @@
-.reasoning-container {
-  display: grid;
-  gap: 40px;
-  max-width: 1000px;
-  margin: 60px auto 150px auto;
-  padding: 0 20px;
-  border-radius: 20px;
+.reasoning {
+  /* padding: 100px 0; */
+  padding: 60px 60px;
+  background: url("../public/hero-background.png") rgb(244, 244, 244);
+  background-position: center center;
+  background-repeat: no-repeat;   
+  background-size: cover;   
 }
 
-.section-title {
+.reasoning-container {
+  max-width: 960px;
+  margin: 0 auto;
+  /* padding: 0 20px; */
+  display: grid;
+  gap: 40px;
+}
+
+.reasoning-title {
   text-align: center;
   font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: #272727;
 }
 
 .reasoning-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  gap: 30px;
 }
 
 .reasoning-card {
-  background: #fff;
+  background: #ffffff;
   border-radius: 20px;
   padding: 30px;
   min-height: 200px;
@@ -35,11 +43,18 @@
               0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
+.reasoning-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #303030; 
+}
+
 @media (max-width: 768px) {
   .reasoning-grid {
     grid-template-columns: 1fr;
   }
-  .section-title {
+  .reasoning-title {
     font-size: 1.8rem;
   }
   .reasoning-card {

@@ -5,26 +5,32 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: rgb(244, 244, 244);
+
+  background: url("../public/hero-background.png") rgb(244, 244, 244);
+  background-position: center center;
+  background-repeat: no-repeat;   
+  background-size: cover;          
 }
 
+
 .hero h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 800;
   color: #242424;
+  line-height: 76px;
+  /* text-shadow: 0px 4px 1.4px rgba(0, 0, 0, 0.25); */
 }
 
 .hero-buttons {
   margin-top: 2.5rem;
   display: flex;
-  flex-wrap: wrap; /* biar bisa turun ke bawah */
+  flex-wrap: wrap; 
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  max-width: 90%; /* kasih batas biar wrap aktif */
+  max-width: 90%; 
 }
 
-/* Base button */
 .btn {
   display: flex;
   flex-direction: row;
@@ -37,7 +43,7 @@
   flex: 1 1 auto;
   min-width: 180px;
   max-width: 300px;
-  height: auto; /* biar bisa ikut membesar */
+  height: auto; 
   
   border-radius: 1000px;
   font-weight: 600;
@@ -49,7 +55,6 @@
   position: relative;
   overflow: hidden;
 
-  /* Glass effect */
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -57,7 +62,6 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Variasi */
 .btn-primary {
   background: rgba(17, 17, 17, 0.6);
   color: white;
@@ -68,7 +72,6 @@
   transform: translateY(-2px);
 }
 
-/* Ukuran bertahap untuk Yes biar sharp */
 .btn-big-1 {
   font-size: 1.3rem;
   padding: 1rem 2.4rem;
