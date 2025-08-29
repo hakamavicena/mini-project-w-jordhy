@@ -1,23 +1,38 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [noCount, setNoCount] = useState(0);
+
+  const noTexts = ["No", "Yakin nih?", "Beneran?", "Fix nih?", "😢 Plis jangan", "Kak 🥺", "NOOOOOOO KAK", "HUHUUHU", "otw anak terlantar :("];
+  const currentNoText = noTexts[noCount % noTexts.length];
+
+  const yesScale = 1 + noCount * 0.1; 
 
   return (
-    <div className="flex flex-col gap-8 min-h-screen justify-center">
-      <h1>Mau jadi kasuh kami, kak Alvin?🥹</h1>
-      <div className="flex justify-evenly">
-        <button>
-          <a href="">Yes</a>
-        </button>
-        <button>
-          <a href="">No</a>
+    <section className="hero">
+      <h1>Mau jadi kasuh kami, Kak Alvin?</h1>
+
+      <div className="hero-buttons">
+        <a
+          href="https://line.me/ti/g/p966MEBCrU"
+          className="btn btn-primary"
+          style={{
+            transform: `scale(${yesScale})`,
+            transition: "transform 0.2s ease",
+          }}
+        >
+          Yes
+        </a>
+
+        <button
+          onClick={() => setNoCount(noCount + 1)}
+          className="btn btn-secondary"
+        >
+          {currentNoText}
         </button>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -1,0 +1,79 @@
+.banner-container {
+  display: grid;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 60px auto 150px auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #272727;
+}
+
+.banner {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25),
+              0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.banner img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner.overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 60%);
+}
+
+.banner-text {
+  position: relative;
+  z-index: 1;
+  /* color: #000000; */
+  color: #2997ff;
+  /* color: rgb(0, 221, 255); */
+  text-align: center;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.banner-text h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.banner-text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 300px;
+    padding: 20px;
+  }
+  .banner-text h2 {
+    font-size: 1.5rem;
+  }
+  .banner-text p {
+    font-size: 1rem;
+  }
+}

@@ -1,44 +1,93 @@
-@import "tailwindcss";
-
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  background: rgb(244, 244, 244);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #242424;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-buttons {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap; /* biar bisa turun ke bawah */
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 90%; /* kasih batas biar wrap aktif */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Base button */
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.75rem 2rem;
+  gap: 4px;
+
+  flex: 1 1 auto;
+  min-width: 180px;
+  max-width: 300px;
+  height: auto; /* biar bisa ikut membesar */
+  
+  border-radius: 1000px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.card {
-  padding: 2em;
+/* Variasi */
+.btn-primary {
+  background: rgba(17, 17, 17, 0.6);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+.btn-primary:hover {
+  background: rgba(17, 17, 17, 0.75);
+  transform: translateY(-2px);
 }
 
-.read-the-docs {
-  color: #888;
+/* Ukuran bertahap untuk Yes biar sharp */
+.btn-big-1 {
+  font-size: 1.3rem;
+  padding: 1rem 2.4rem;
+}
+.btn-big-2 {
+  font-size: 1.5rem;
+  padding: 1.2rem 2.8rem;
+}
+.btn-big-3 {
+  font-size: 1.7rem;
+  padding: 1.4rem 3.2rem;
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.25);
+  color: #111;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
 }

@@ -1,0 +1,49 @@
+.reasoning-container {
+  display: grid;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 60px auto 150px auto;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #272727;
+}
+
+.reasoning-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.reasoning-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  box-shadow: 0 10px 20px rgba(239, 239, 239, 0.25),
+              0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .reasoning-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-title {
+    font-size: 1.8rem;
+  }
+  .reasoning-card {
+    min-height: 150px;
+    padding: 20px;
+  }
+}
