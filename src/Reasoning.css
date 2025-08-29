@@ -1,25 +1,24 @@
 .reasoning {
-  /* padding: 100px 0; */
-  padding: 60px 60px;
+  padding: 100px 20px; 
   background: url("../public/hero-background.png") rgb(244, 244, 244);
   background-position: center center;
-  background-repeat: no-repeat;   
-  background-size: cover;   
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .reasoning-container {
   max-width: 960px;
   margin: 0 auto;
-  /* padding: 0 20px; */
   display: grid;
   gap: 40px;
 }
+
 
 .reasoning-title {
   text-align: center;
   font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   color: #272727;
 }
 
@@ -30,7 +29,6 @@
 }
 
 .reasoning-card {
-  background: #ffffff;
   border-radius: 20px;
   padding: 30px;
   min-height: 200px;
@@ -39,8 +37,14 @@
   justify-content: center;
   text-align: center;
 
-  box-shadow: 0 10px 20px rgba(239, 239, 239, 0.25),
-              0 10px 20px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 10px 20px rgba(239, 239, 239, 0.25),
+              0 10px 20px rgba(0, 0, 0, 0.15); */
+
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .reasoning-card p {

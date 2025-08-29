@@ -3,7 +3,7 @@ import "./GetToKnow.css";
 export default function GetToKnow() {
   return (
     <section id="about" className="banner-container">
-      <h2 className="section-title">Get to Know More</h2>
+      <h2 className="section-title">Get to Know Us</h2>
 
       <div className="banner overlay">
         <img src="../public/jordhy.jpeg" />

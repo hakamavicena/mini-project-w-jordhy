@@ -14,11 +14,18 @@
 
 
 .hero h1 {
-  font-size: 4rem;
+  font-size: 4.2rem;
   font-weight: 800;
-  color: #242424;
   line-height: 76px;
-  /* text-shadow: 0px 4px 1.4px rgba(0, 0, 0, 0.25); */
+
+  background: linear-gradient(to top, #121212 0%, #161616 50%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 
+    0px 2px 4px rgba(0, 0, 0, 0.25),   /* bayangan bawah */
+    0px 4px 10px rgba(81, 81, 81, 0.1),   /* glow tipis */
+    0px -1px 1px rgba(87, 87, 87, 0.6); /* highlight atas */
 }
 
 .hero-buttons {
@@ -55,6 +62,7 @@
   position: relative;
   overflow: hidden;
 
+  /* apple glassy ahh button */
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);

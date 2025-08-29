@@ -18,7 +18,10 @@ export default function Reasoning() {
           <div className="reasoning-card">
             <p>
               It has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+              electronic typesetting, remaining essentially unchanged. 
+               Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
             </p>
           </div>
         </div>

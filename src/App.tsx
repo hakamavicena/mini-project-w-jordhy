@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const [noCount, setNoCount] = useState(0);
 
-  const noTexts = ["No", "Yakin nih?", "Beneran?", "Fix nih?", "😢 Plis jangan", "Kak 🥺", "NOOOOOOO KAK", "HUHUUHU", "otw anak terlantar :("];
+  const noTexts = ["No", "Yakin nih?", "Beneran?", "Fix nih?", "😢 Plis jangan", "Kak 🥺", "NOOOOOOO KAK", "HUHUUHU", "otw anak terlantar :(", "scroll down dulu kak hehe"];
   const currentNoText = noTexts[noCount % noTexts.length];
 
   const yesScale = 1 + noCount * 0.1; 
