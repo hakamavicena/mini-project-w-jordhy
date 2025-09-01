@@ -8,7 +8,7 @@ export default function GetToKnow() {
       <div className="banner overlay">
         <img src="../public/jordhy.jpeg" />
         <div className="banner-text">
-          <h2 className="name1">Branenda Jordhy</h2>
+          <h2>Branenda Jordhy</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -21,7 +21,7 @@ export default function GetToKnow() {
       <div className="banner overlay ">
         <img src="../public/hakam.jpeg" />
         <div className="banner-text">
-          <h2 className="name2">Hakam Avicena</h2>
+          <h2>Hakam Avicena</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
