@@ -1,7 +1,6 @@
 import "./GetToKnow.css";
 import { useOnScreen } from "./use-on-screen";
 
-
 export default function GetToKnow() {
   const options = {
     root: null,
