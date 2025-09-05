@@ -2,6 +2,8 @@ import "./GetToKnow.css";
 import { useOnScreen } from "./use-on-screen";
 
 export default function GetToKnow() {
+  const baseURL = import.meta.env.BASE_URL;
+
   const options = {
     root: null,
     rootMargin: "0px",
@@ -26,7 +28,7 @@ export default function GetToKnow() {
           isJordhyVisible ? "animate-visible" : ""
         }`}
       >
-        <img src="../public/jordhy.jpeg" />
+        <img src={`${baseURL}jordhy.jpeg`} alt="jordhy" />
         <div className="banner-text">
           <h2>Branenda Jordhy</h2>
           <p>
@@ -47,7 +49,7 @@ export default function GetToKnow() {
           isHakamVisible ? "animate-visible" : ""
         }`}
       >
-        <img src="../public/hakam.jpeg" />
+        <img src={`${baseURL}hakam.jpeg`} alt="hakam" />
         <div className="banner-text">
           <h2>Hakam Avicena</h2>
           <p>
