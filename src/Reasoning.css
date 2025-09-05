@@ -54,6 +54,11 @@
   color: #303030; 
 }
 
+.name {
+  font-weight: bold;
+  font-style: italic;
+}
+
 @media (max-width: 768px) {
   .reasoning-grid {
     grid-template-columns: 1fr;

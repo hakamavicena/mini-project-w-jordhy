@@ -9,9 +9,13 @@ export default function Reasoning() {
         <div className="reasoning-grid">
           <div className="reasoning-card">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              Buatku, kakak asuh itu mirip peran mentor di series Start-Up, seseorang yang bisa kasih arahan,
+              dorongan, dan insight berharga supaya langkah yang ku ambil lebih terarah. Punya mentor bikin perjalanan
+              kuliah ga terasa sendirian, apalagi sekarang ada Hakam juga, jadi ada tempat buat diskusi dan tanya langsung
+              dari pengalaman nyata. Aku pengen belajar bukan cuma soal akademik (survive di IF) atau skill,
+              tapi gimana cara hadapin tantangan, lihat peluang, karir, dan berkembang lebih pd. <br />
+              <span className="name">~ Jordhy</span>
+              
             </p>
           </div>
 
@@ -22,6 +26,12 @@ export default function Reasoning() {
                Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s.
+              It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. 
+               Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s. <br />
+              <span className="name">~ Hakam</span>
             </p>
           </div>
         </div>

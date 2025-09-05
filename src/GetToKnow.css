@@ -38,23 +38,30 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(0deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 60%);
+  background: 
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 10%,  
+      rgba(0, 0, 0, 0.6) 20%, 
+      rgba(0, 0, 0, 0.3) 40%,
+      rgba(0, 0, 0, 0) 70%
+    );
 }
 
 .banner-text {
   position: relative;
   z-index: 1;
-  /* color: #000000; */
-  color: #2997ff;
-  /* color: rgb(0, 221, 255); */
   text-align: center;
   padding: 20px;
   max-width: 700px;
 }
 
 .banner-text h2 {
+  color: #ffffff; 
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 16px;
 }
 
