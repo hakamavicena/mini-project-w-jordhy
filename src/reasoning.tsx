@@ -31,14 +31,14 @@ export default function Reasoning() {
             }`}
           >
             <p>
-              Buatku, kakak asuh itu mirip peran mentor di series Start-Up,
-              seseorang yang bisa kasih arahan, dorongan, dan insight berharga
-              supaya langkah yang ku ambil lebih terarah. Punya mentor bikin
+              Buatku, kakak asuh itu mirip kek peran mentor di series Start-Up,
+              orang yang bisa kasih arahan, dorongan, dan insight
+              biar langkah yang ku ambil lebih terarah. Punya mentor bikin
               perjalanan kuliah ga terasa sendirian, apalagi sekarang ada Hakam
-              juga, jadi ada tempat buat diskusi dan tanya langsung dari
-              pengalaman nyata. Aku pengen belajar bukan cuma soal akademik
+              juga, jadi ada tempat buat diskusi bareng dan tanya langsung dari
+              pengalaman nyata, fr no cap. Aku pengen belajar bukan cuma soal akademik
               (survive di IF) atau skill, tapi gimana cara hadapin tantangan,
-              lihat peluang, karir, dan berkembang lebih pd. <br />
+              lihat peluang, karir (biar bisa #opentowork 😋), dan berkembang lebih pd. <br />
               <span className="name">~ Jordhy</span>
             </p>
           </div>

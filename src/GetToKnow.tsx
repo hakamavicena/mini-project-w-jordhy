@@ -30,12 +30,12 @@ export default function GetToKnow() {
         <div className="banner-text">
           <h2>Branenda Jordhy</h2>
           <p>
-            Jor, IF'24 yang percaya segelintir baris kode bisa bikin hal keren
+            Jordhy, IF'24, percaya kode bisa bikin hal keren
             terjadi. Lagi suka explore data science, webdev, dan iOS biar makin
-            jago bikin sesuatu yang kepake. Fun fact: dia suka banget nih, sama
-            Keshi, matcha, listening to Clairo, reading, tv series Dark, Game of
-            Thrones, bubble tea dan kucing. Lately, dia lagi suka jogging di
-            saraga biar ga blackout pas kelas OR.
+            jago bikin sesuatu yang kepake dan nambah portfolio biar bisa cepet #opentowork.
+            Fun fact: aku suka banget nih, sama Keshi, matcha, listening to Clairo,
+            reading, tv series Dark, Game of Thrones, bubble tea dan kucing. Lately,
+            lagi suka jogging di Saraga biar ga blackout pas kelas OR.
           </p>
           {/* <a href="#" className="banner-link">Connect with me ›</a> */}
         </div>
