@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
 import GetToKnow from "./GetToKnow.tsx";
-import Reasoning from "./Reasoning.tsx";
+import Reasoning from "./reasoning.tsx";
 import Activities from "./Activities.tsx";
 import Footer from "./Footer.tsx";
 
